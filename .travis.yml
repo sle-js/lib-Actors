@@ -1,0 +1,10 @@
+language: node_js
+
+node_js:
+  - "10.3.0"
+
+install:
+  - npm install sle -g
+
+script:
+  - sle tests.js
